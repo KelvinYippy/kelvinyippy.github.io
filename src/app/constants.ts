@@ -1,22 +1,21 @@
 export const NAVIGATION = [
     {
         name: 'About Me',
-        href: '#'
+        href: '/about'
     }, 
     {
         name: 'Resume',
-        href: '#'
+        href: 'Kelvin_Yip_Resume.pdf',
+        rest: {
+            target: "_blank"
+        }
     },
     {
         name: 'Software Portfolio',
-        href: '#'
+        href: '/products'
     },
     {
         name: 'Photography Portfolio',
-        href: '#'
-    },
-    {
-        name: 'Contact',
-        href: '#'
+        href: '/photos'
     }
 ]

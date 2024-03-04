@@ -10,7 +10,7 @@ export const Footer = () => {
                 </span>
                 <ul className="flex flex-wrap items-center text-sm font-medium text-gray-500 dark:text-gray-400 sm:mt-0">
                     <li>
-                        <a href="#" className="hover:underline me-4 md:me-6 flex">
+                        <a href="https://github.com/KelvinYippy" target='_blank' className="hover:underline me-4 md:me-6 flex">
                             <svg 
                                 className="h-8 w-8"
                                 viewBox="0 0 24 24"
@@ -27,7 +27,7 @@ export const Footer = () => {
                         </a>
                     </li>
                     <li>
-                        <a href="#" className="hover:underline me-4 md:me-6 flex">
+                        <a href="https://www.linkedin.com/in/kelvin-yip7/" target='_blank' className="hover:underline me-4 md:me-6 flex">
                             <svg 
                                 className="h-8 w-8"  
                                 viewBox="0 0 24 24"  
