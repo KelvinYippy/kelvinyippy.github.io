@@ -31,7 +31,7 @@ const PhotoPage = () => {
     }, [])
 
     return (
-        <div className="w-screen h-screen h-3/4 overflow-scroll">
+        <div className="w-screen h-4/5 overflow-scroll">
             <div className="font-bold text-6xl text-center">
                 Check out some photos I&apos;ve taken.
             </div>
