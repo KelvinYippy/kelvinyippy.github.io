@@ -1,16 +1,14 @@
-import Image from 'next/image';
-
 export const Footer = () => {
 
     return (
-        <footer className="absolute bottom-0 left-1/4 right-0 flex justify-center w-6/12 rounded-lg shadow m-4 dark:bg-gray-800">
-            <div className="w-full mx-auto max-w-screen-xl p-4 md:flex md:items-center md:justify-between">
-                <span className="text-sm text-gray-500 sm:text-center dark:text-gray-400">
+        <footer className="absolute bottom-0 left-0 right-0 items-center rounded-lg shadow m-4 dark:bg-gray-800">
+            <div className="relative w-full text-center mx-auto max-w-screen-xl p-4 md:flex md:items-center md:justify-between">
+                <span className="text-sm text-gray-500 dark:text-gray-400">
                     Built with React © 2024
                 </span>
-                <ul className="flex flex-wrap items-center text-sm font-medium text-gray-500 dark:text-gray-400 sm:mt-0">
+                <ul className="flex flex-wrap pt-2 md:pt-0 items-center justify-center text-sm font-medium text-gray-500 dark:text-gray-400 sm:mt-0">
                     <li>
-                        <a href="https://github.com/KelvinYippy" target='_blank' className="hover:underline me-4 md:me-6 flex">
+                        <a href='https://github.com/KelvinYippy' target='_blank' className="items-center justify-center flex mx-3">
                             <svg 
                                 className="h-8 w-8"
                                 viewBox="0 0 24 24"
@@ -27,7 +25,7 @@ export const Footer = () => {
                         </a>
                     </li>
                     <li>
-                        <a href="https://www.linkedin.com/in/kelvin-yip7/" target='_blank' className="hover:underline me-4 md:me-6 flex">
+                        <a href="https://www.linkedin.com/in/kelvin-yip7/" target='_blank' className="items-center justify-center flex mx-3">
                             <svg 
                                 className="h-8 w-8"  
                                 viewBox="0 0 24 24"  

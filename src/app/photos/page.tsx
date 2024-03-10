@@ -19,18 +19,23 @@ const PhotoPage = () => {
           return response.json();
         })
         .then((data: ImageUrlsResponse) => {
-            data.imageUrls.shift()
-            setImageUrls(data.imageUrls)
+            const photos: string[] = []
+            data.imageUrls.forEach((url) => {
+                if (!url.endsWith(".DS_Store")) {
+                    photos.push(url)
+                }
+            })
+            setImageUrls(photos)
     })
         .catch(error => console.error('Error fetching images:', error));
     }, [])
 
     return (
-        <div className="flex w-screen h-screen flex-col items-center justify-center">
-            <div className="font-bold text-6xl text-center mt-32">
+        <div className="w-screen h-screen h-3/4 overflow-scroll">
+            <div className="font-bold text-6xl text-center">
                 Check out some photos I&apos;ve taken.
             </div>
-            <div className="grid grid-cols-3 col-span-2 mt-16 overflow-scroll">
+            <div className="grid grid-cols-3 col-span-2 my-10">
                 {
                     imageUrls.map((url, index) => (
                         <Image
