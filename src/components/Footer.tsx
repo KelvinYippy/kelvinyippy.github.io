@@ -4,7 +4,7 @@ export const Footer = () => {
         <footer className="absolute bottom-0 left-0 right-0 items-center rounded-lg shadow m-4 dark:bg-gray-800">
             <div className="relative w-full text-center mx-auto max-w-screen-xl p-4 md:flex md:items-center md:justify-between">
                 <span className="text-sm text-gray-500 dark:text-gray-400">
-                    Built with React © 2024
+                    Built with React © 2025
                 </span>
                 <ul className="flex flex-wrap pt-2 md:pt-0 items-center justify-center text-sm font-medium text-gray-500 dark:text-gray-400 sm:mt-0">
                     <li>
